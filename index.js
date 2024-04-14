@@ -1,4 +1,4 @@
-gitconst express = require('express');
+const express = require('express');
 const mongoose = require('mongoose');
 const productRoute = require('./routes/product.route.js');
 const app = express();
